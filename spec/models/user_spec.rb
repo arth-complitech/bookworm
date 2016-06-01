@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe User do
 	it "is invalid without email" do
 	 	user=build(:user,email: nil)
