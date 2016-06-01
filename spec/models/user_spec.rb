@@ -16,4 +16,4 @@ RSpec.describe User, :type => :model do
 	 	user=User.new
 		expect(user).to have(1).errors_on(:last_name)
 	end
-end 
+end
