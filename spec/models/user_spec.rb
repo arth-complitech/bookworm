@@ -1,4 +1,4 @@
-
+require 'user'
 RSpec.describe User, :type => :model do
 	it "is invalid without email" do
 	 	user=build(email: nil)
